@@ -41,7 +41,7 @@ Each developer subagent dispatched to work on a task must follow these workflow 
 ## Phase 2: Configuration & Domain Mapping
 
 - [x] P2-1: Create `src/main/resources/application.yml` defining connection URIs (`http://localhost:9200`), explicit timeouts (connection timeout 5s, socket timeout 3s), and query wire logs at `DEBUG` level.
-- [ ] P2-2: Create `com/example/catalog/CatalogApplication.java` main application runner class.
+- [x] P2-2: Create `com/example/catalog/CatalogApplication.java` main application runner class.
 - [ ] P2-3: Create domain class `com/example/catalog/model/Product.java` with strict settings (no dynamic mapping, shards = 1, replicas = 0), annotations for keyword types, and text type fields (analyzed with standard analyzer and keyword subfield).
 - [ ] P2-EC: Start the Spring Boot skeleton application and verify it starts without throwing connection exceptions or database mapping validation errors.
 
