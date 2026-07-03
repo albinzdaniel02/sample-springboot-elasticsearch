@@ -51,7 +51,7 @@ Each developer subagent dispatched to work on a task must follow these workflow 
 
 - [x] P3-1: Add mock data json file `src/main/resources/products-seed.json` containing 25+ product items with varied prices, categories, stocks, and timestamps.
 - [x] P3-2: Create `com/example/catalog/config/SeedDataLoader.java` implementing `CommandLineRunner`. The loader must idempotently verify if the `products` index exists, create it with mappings if missing, count documents, and seed products if count is 0.
-- [ ] P3-EC: Restart application. Verify log outputs indicate successful data seeding. Verify document counts using Kibana Dev Tools (`GET /products/_count`). Restart application again and verify no duplicate indexing occurs.
+- [x] P3-EC: Restart application. Verify log outputs indicate successful data seeding. Verify document counts using Kibana Dev Tools (`GET /products/_count`). Restart application again and verify no duplicate indexing occurs.
 
 ---
 
