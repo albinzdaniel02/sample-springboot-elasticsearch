@@ -1,0 +1,236 @@
+[
+  {
+    "id": "prod-001",
+    "name": "Quantum Phone X",
+    "description": "High-end smartphone with quantum computing processors and 128GB RAM.",
+    "price": 999.99,
+    "category": "electronics",
+    "stock": 50,
+    "timestamp": "2026-07-01T10:00:00Z"
+  },
+  {
+    "id": "prod-002",
+    "name": "Z-Book Pro Laptop",
+    "description": "A powerful workstation laptop designed for developers and creators.",
+    "price": 1499.50,
+    "category": "electronics",
+    "stock": 25,
+    "timestamp": "2026-07-01T11:30:00Z"
+  },
+  {
+    "id": "prod-003",
+    "name": "Noise Cancelling Headphones",
+    "description": "Wireless over-ear headphones with active noise cancellation.",
+    "price": 199.99,
+    "category": "electronics",
+    "stock": 120,
+    "timestamp": "2026-07-01T14:15:00Z"
+  },
+  {
+    "id": "prod-004",
+    "name": "Smart Watch Series 5",
+    "description": "Fitness tracker and smart watch with heart rate monitor.",
+    "price": 249.00,
+    "category": "electronics",
+    "stock": 80,
+    "timestamp": "2026-07-02T09:00:00Z"
+  },
+  {
+    "id": "prod-005",
+    "name": "4K Ultra HD Projector",
+    "description": "Home theater projector with 4K resolution and high brightness.",
+    "price": 799.00,
+    "category": "electronics",
+    "stock": 15,
+    "timestamp": "2026-07-02T10:45:00Z"
+  },
+  {
+    "id": "prod-006",
+    "name": "Introduction to Algorithms",
+    "description": "A comprehensive guide to understanding computer science algorithms.",
+    "price": 85.00,
+    "category": "books",
+    "stock": 200,
+    "timestamp": "2026-06-15T08:00:00Z"
+  },
+  {
+    "id": "prod-007",
+    "name": "Clean Code",
+    "description": "A handbook of agile software craftsmanship by Robert C. Martin.",
+    "price": 39.99,
+    "category": "books",
+    "stock": 150,
+    "timestamp": "2026-06-18T12:00:00Z"
+  },
+  {
+    "id": "prod-008",
+    "name": "Design Patterns",
+    "description": "Elements of Reusable Object-Oriented Software.",
+    "price": 54.50,
+    "category": "books",
+    "stock": 90,
+    "timestamp": "2026-06-20T15:30:00Z"
+  },
+  {
+    "id": "prod-009",
+    "name": "The Hobbit",
+    "description": "Classic fantasy novel by J.R.R. Tolkien.",
+    "price": 14.99,
+    "category": "books",
+    "stock": 310,
+    "timestamp": "2026-06-22T10:00:00Z"
+  },
+  {
+    "id": "prod-010",
+    "name": "Sapiens: A Brief History of Humankind",
+    "description": "Explores the history of Earth and humankind from the Stone Age.",
+    "price": 19.99,
+    "category": "books",
+    "stock": 175,
+    "timestamp": "2026-06-25T11:00:00Z"
+  },
+  {
+    "id": "prod-011",
+    "name": "Ergonomic Office Chair",
+    "description": "High-back mesh office chair with lumbar support and adjustable armrests.",
+    "price": 289.00,
+    "category": "home",
+    "stock": 40,
+    "timestamp": "2026-06-28T09:30:00Z"
+  },
+  {
+    "id": "prod-012",
+    "name": "Standing Desk Converter",
+    "description": "Height adjustable desk riser for home office dual monitors.",
+    "price": 129.99,
+    "category": "home",
+    "stock": 65,
+    "timestamp": "2026-06-29T10:15:00Z"
+  },
+  {
+    "id": "prod-013",
+    "name": "Robotic Vacuum Cleaner",
+    "description": "Smart robot vacuum with laser mapping and auto-charging.",
+    "price": 349.99,
+    "category": "home",
+    "stock": 30,
+    "timestamp": "2026-06-30T16:00:00Z"
+  },
+  {
+    "id": "prod-014",
+    "name": "Air Purifier HEPA Filter",
+    "description": "Air cleaner for large rooms, removing 99.97% of dust and pollen.",
+    "price": 89.95,
+    "category": "home",
+    "stock": 110,
+    "timestamp": "2026-07-01T08:45:00Z"
+  },
+  {
+    "id": "prod-015",
+    "name": "Stainless Steel Water Bottle",
+    "description": "Vacuum insulated double-walled water flask, 32oz.",
+    "price": 24.99,
+    "category": "home",
+    "stock": 500,
+    "timestamp": "2026-07-01T09:15:00Z"
+  },
+  {
+    "id": "prod-016",
+    "name": "Running Shoes Lightweight",
+    "description": "Breathable road running shoes with maximum cushioning.",
+    "price": 119.99,
+    "category": "clothing",
+    "stock": 140,
+    "timestamp": "2026-06-20T14:00:00Z"
+  },
+  {
+    "id": "prod-017",
+    "name": "Cotton Crewneck T-Shirt",
+    "description": "Pack of 3 super soft combed cotton shirts.",
+    "price": 29.50,
+    "category": "clothing",
+    "stock": 450,
+    "timestamp": "2026-06-22T13:30:00Z"
+  },
+  {
+    "id": "prod-018",
+    "name": "Waterproof Winter Jacket",
+    "description": "Windproof thermal jacket with fleece lining and hood.",
+    "price": 159.00,
+    "category": "clothing",
+    "stock": 55,
+    "timestamp": "2026-06-24T10:00:00Z"
+  },
+  {
+    "id": "prod-019",
+    "name": "Yoga Pants High Waisted",
+    "description": "Stretch workout leggings with side pockets.",
+    "price": 35.00,
+    "category": "clothing",
+    "stock": 250,
+    "timestamp": "2026-06-26T15:20:00Z"
+  },
+  {
+    "id": "prod-020",
+    "name": "Leather Travel Backpack",
+    "description": "Water-resistant commuter backpack with 15.6-inch laptop pocket.",
+    "price": 79.99,
+    "category": "clothing",
+    "stock": 95,
+    "timestamp": "2026-06-28T11:00:00Z"
+  },
+  {
+    "id": "prod-021",
+    "name": "Yoga Mat Non-Slip",
+    "description": "Eco-friendly exercise mat for home workout and gymnastics.",
+    "price": 28.50,
+    "category": "sports",
+    "stock": 180,
+    "timestamp": "2026-06-21T07:30:00Z"
+  },
+  {
+    "id": "prod-022",
+    "name": "Adjustable Dumbbells Set",
+    "description": "All-in-one dumbbell pair adjustable from 5 to 52.5 lbs.",
+    "price": 299.99,
+    "category": "sports",
+    "stock": 20,
+    "timestamp": "2026-06-23T16:45:00Z"
+  },
+  {
+    "id": "prod-023",
+    "name": "Resistance Bands Set",
+    "description": "Exercise bands with handles, ankle straps, door anchor, and carry bag.",
+    "price": 18.99,
+    "category": "sports",
+    "stock": 350,
+    "timestamp": "2026-06-25T14:30:00Z"
+  },
+  {
+    "id": "prod-024",
+    "name": "Folding Electric Bicycle",
+    "description": "Pedal-assist e-bike with 250W motor and removable battery.",
+    "price": 649.00,
+    "category": "sports",
+    "stock": 12,
+    "timestamp": "2026-06-27T09:00:00Z"
+  },
+  {
+    "id": "prod-025",
+    "name": "Pop-up Camping Tent",
+    "description": "4-person instant setup tent, waterproof and windproof.",
+    "price": 109.99,
+    "category": "sports",
+    "stock": 45,
+    "timestamp": "2026-06-29T10:00:00Z"
+  },
+  {
+    "id": "prod-026",
+    "name": "Portable Camping Hammock",
+    "description": "Double hammock with tree straps, lightweight parachute nylon.",
+    "price": 26.99,
+    "category": "sports",
+    "stock": 130,
+    "timestamp": "2026-07-02T16:30:00Z"
+  }
+]
