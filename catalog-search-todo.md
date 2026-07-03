@@ -34,7 +34,7 @@ Each developer subagent dispatched to work on a task must follow these workflow 
 
 - [x] P1-1: Create `docker-compose.yml` in the project root containing Elasticsearch (single-node, security disabled, memory limits at `-Xms512m -Xmx512m`) and Kibana (configured to point to Elasticsearch, and running health checks).
 - [x] P1-2: Create `pom.xml` in the project root containing dependencies for Spring Boot 3.3+, Spring Data Elasticsearch, Lombok, Jackson, and JUnit/Testcontainers for testing.
-- [ ] P1-EC: Start infrastructure via `docker-compose up -d`. Verify Elasticsearch cluster health is green or yellow at `http://localhost:9200/_cluster/health` and Kibana is accessible on `http://localhost:5601`. Verify Maven dependencies download and project compiles cleanly with `mvn clean compile`.
+- [x] P1-EC: Start infrastructure via `docker-compose up -d`. Verify Elasticsearch cluster health is green or yellow at `http://localhost:9200/_cluster/health` and Kibana is accessible on `http://localhost:5601`. Verify Maven dependencies download and project compiles cleanly with `mvn clean compile`.
 
 ---
 
