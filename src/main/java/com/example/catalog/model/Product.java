@@ -23,8 +23,8 @@ import java.time.Instant;
 @Document(indexName = "products", dynamic = Dynamic.STRICT, writeTypeHint = WriteTypeHint.FALSE)
 @Setting(shards = 1, replicas = 0)
 public class Product {
-
     @Id
+    @Field(type = FieldType.Keyword)
     private String id;
 
     @MultiField(
@@ -55,3 +55,4 @@ public class Product {
     @Field(type = FieldType.Date)
     private Instant timestamp;
 }
+
