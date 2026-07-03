@@ -50,7 +50,7 @@ Each developer subagent dispatched to work on a task must follow these workflow 
 ## Phase 3: Idempotent Seeding Implementation
 
 - [x] P3-1: Add mock data json file `src/main/resources/products-seed.json` containing 25+ product items with varied prices, categories, stocks, and timestamps.
-- [ ] P3-2: Create `com/example/catalog/config/SeedDataLoader.java` implementing `CommandLineRunner`. The loader must idempotently verify if the `products` index exists, create it with mappings if missing, count documents, and seed products if count is 0.
+- [x] P3-2: Create `com/example/catalog/config/SeedDataLoader.java` implementing `CommandLineRunner`. The loader must idempotently verify if the `products` index exists, create it with mappings if missing, count documents, and seed products if count is 0.
 - [ ] P3-EC: Restart application. Verify log outputs indicate successful data seeding. Verify document counts using Kibana Dev Tools (`GET /products/_count`). Restart application again and verify no duplicate indexing occurs.
 
 ---
@@ -73,5 +73,6 @@ Each developer subagent dispatched to work on a task must follow these workflow 
   3. Filtered search: `GET /search?category=electronics&minPrice=100&maxPrice=500` (matches range and category, returns facets)
   4. Parameter validation: `GET /search?minPrice=500&maxPrice=10` (returns 400 Bad Request)
   5. Connection failure check (stop ES container and run curl) -> returns 503 Service Unavailable.
+
 
 
