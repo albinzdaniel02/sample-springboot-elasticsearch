@@ -57,7 +57,7 @@ Each developer subagent dispatched to work on a task must follow these workflow 
 
 ## Phase 4: Business Logic & Query DSL Development
 
-- [ ] P4-1: Create DTO class `com/example/catalog/dto/SearchResponse.java` and error response DTO `com/example/catalog/dto/ErrorResponse.java` to map results, page numbers, sizes, total hits, and category facets.
+- [x] P4-1: Create DTO class `com/example/catalog/dto/SearchResponse.java` and error response DTO `com/example/catalog/dto/ErrorResponse.java` to map results, page numbers, sizes, total hits, and category facets.
 - [ ] P4-2: Create `com/example/catalog/service/SearchService.java` building a boolean query context combining a fuzzy `multi_match` text search on `name^2` and `description` with filters for category (term match) and prices (range match). Add category terms aggregation.
 - [ ] P4-EC: Write and execute unit/integration tests to assert correct Query DSL building, field boosting, fuzzy parameters, and aggregations inside `SearchService`.
 
