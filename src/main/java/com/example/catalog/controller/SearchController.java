@@ -1,6 +1,5 @@
 package com.example.catalog.controller;
 
-import com.example.catalog.dto.ErrorResponse;
 import com.example.catalog.dto.SearchResponse;
 import com.example.catalog.service.SearchService;
 import lombok.RequiredArgsConstructor;
@@ -25,28 +24,13 @@ public class SearchController {
             @RequestParam(defaultValue = "10") int size
     ) {
         if (page < 0) {
-            return ResponseEntity.badRequest().body(
-                    ErrorResponse.builder()
-                            .error("Bad Request")
-                            .message("Page index must not be less than zero")
-                            .build()
-            );
+            throw new IllegalArgumentException("Page index must not be less than zero");
         }
         if (size <= 0) {
-            return ResponseEntity.badRequest().body(
-                    ErrorResponse.builder()
-                            .error("Bad Request")
-                            .message("Page size must be greater than zero")
-                            .build()
-            );
+            throw new IllegalArgumentException("Page size must be greater than zero");
         }
         if (minPrice != null && maxPrice != null && minPrice > maxPrice) {
-            return ResponseEntity.badRequest().body(
-                    ErrorResponse.builder()
-                            .error("Bad Request")
-                            .message("minPrice cannot be greater than maxPrice")
-                            .build()
-            );
+            throw new IllegalArgumentException("minPrice cannot be greater than maxPrice");
         }
 
         SearchResponse response = searchService.search(q, category, minPrice, maxPrice, page, size);
