@@ -66,7 +66,7 @@ Each developer subagent dispatched to work on a task must follow these workflow 
 ## Phase 5: REST Endpoint & Exception Boundary Setup
 
 - [x] P5-1: Create `com/example/catalog/controller/SearchController.java` exposing `/search` mapping page, size, min/max price, category, and text query parameters. Validate parameters (e.g. `minPrice <= maxPrice`, `page >= 0`, `size > 0`).
-- [ ] P5-2: Create `com/example/catalog/controller/GlobalExceptionHandler.java` translating validation failures to `400 Bad Request`, client connection/timeout errors to `503 Service Unavailable`, and all other errors to `500 Internal Error`.
+- [x] P5-2: Create `com/example/catalog/controller/GlobalExceptionHandler.java` translating validation failures to `400 Bad Request`, client connection/timeout errors to `503 Service Unavailable`, and all other errors to `500 Internal Error`.
 - [ ] P5-EC: Run all tests using `./mvnw clean test` verifying minimum 80% coverage. Execute test curls:
   1. Standard query: `GET /search?q=phone` (matches phone results)
   2. Typo query: `GET /search?q=fone` (matches phone results fuzzy)
